@@ -8,8 +8,8 @@ export class LessonResolver {
     return {
       id: 'dfdsfsd',
       name: 'Math',
-      startDate: new Date().toISOString,
-      endDate: new Date().toISOString,
+      startDate: new Date().toISOString(),
+      endDate: new Date().toISOString(),
     };
   }
 }
